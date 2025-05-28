@@ -1,0 +1,1417 @@
+{
+  "intents": [
+    {
+      "intent": "ajuda_durante_evento",
+      "examples": [
+        {
+          "text": "e se houver deslizamento, o que fazer?"
+        },
+        {
+          "text": "está acontecendo um terremoto, me ajude"
+        },
+        {
+          "text": "estou no meio de uma ventania, o que faço?"
+        },
+        {
+          "text": "onde posso me abrigar agora?"
+        },
+        {
+          "text": "o que faço agora que a tempestade começou?"
+        },
+        {
+          "text": "o que fazer durante um vendaval?"
+        },
+        {
+          "text": "o que não devo fazer durante um desastre?"
+        },
+        {
+          "text": "preciso de ajuda urgente, o que faço?"
+        },
+        {
+          "text": "tá chovendo muito, como me protejo?"
+        },
+        {
+          "text": "tá muito calor, tem risco?"
+        },
+        {
+          "text": "tá muito frio, tem algum cuidado específico?"
+        },
+        {
+          "text": "tem perigo sair de casa agora?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ajuda_pos_evento",
+      "examples": [
+        {
+          "text": "como evitar doenças após enchente?"
+        },
+        {
+          "text": "como limpar a casa após um temporal?"
+        },
+        {
+          "text": "como verificar se minha casa é segura?"
+        },
+        {
+          "text": "e agora, a ventania passou, o que faço?"
+        },
+        {
+          "text": "existe assistência do governo depois de desastres?"
+        },
+        {
+          "text": "onde busco apoio psicológico depois do desastre?"
+        },
+        {
+          "text": "onde consigo assistência?"
+        },
+        {
+          "text": "o que fazer depois de uma enchente?"
+        },
+        {
+          "text": "preciso de ajuda depois do terremoto"
+        },
+        {
+          "text": "preciso de ajuda médica, como procuro?"
+        },
+        {
+          "text": "quais cuidados tomar após uma onda de calor?"
+        },
+        {
+          "text": "tem risco depois que a tempestade acabou?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ajuda_preventiva",
+      "examples": [
+        {
+          "text": "como me preparo para um temporal?"
+        },
+        {
+          "text": "como me proteger de uma onda de calor?"
+        },
+        {
+          "text": "como proteger minha casa antes de uma tempestade?"
+        },
+        {
+          "text": "como proteger minha família de desastres naturais?"
+        },
+        {
+          "text": "é seguro dirigir em ventania?"
+        },
+        {
+          "text": "existe algum protocolo antes de desastres?"
+        },
+        {
+          "text": "me dá dicas de segurança preventiva"
+        },
+        {
+          "text": "o que fazer antes de um desastre?"
+        },
+        {
+          "text": "o que fazer antes de um terremoto?"
+        },
+        {
+          "text": "preciso de dicas para enfrentar frio extremo"
+        },
+        {
+          "text": "quais cuidados antes de ventos fortes?"
+        },
+        {
+          "text": "quais itens de emergência preciso ter?"
+        },
+        {
+          "text": "que precauções devo tomar antes de um evento climático?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "alertas_climaticos",
+      "examples": [
+        {
+          "text": "como acompanho os alertas?"
+        },
+        {
+          "text": "como está o clima hoje?"
+        },
+        {
+          "text": "como saber se vem ventania?"
+        },
+        {
+          "text": "existe perigo de frio extremo hoje?"
+        },
+        {
+          "text": "me atualize sobre os riscos climáticos"
+        },
+        {
+          "text": "me avisa se tiver risco de enchente?"
+        },
+        {
+          "text": "onde vejo os alertas meteorológicos?"
+        },
+        {
+          "text": "o tempo vai piorar?"
+        },
+        {
+          "text": "quais são os alertas atuais?"
+        },
+        {
+          "text": "quais são os riscos para hoje?"
+        },
+        {
+          "text": "tá previsto algum terremoto?"
+        },
+        {
+          "text": "tem alertas de tempestade hoje?"
+        },
+        {
+          "text": "vai fazer muito calor essa semana?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cuidados_com_saude",
+      "examples": [
+        {
+          "text": "como evitar doenças no pós-desastre?"
+        },
+        {
+          "text": "como me proteger do frio extremo?"
+        },
+        {
+          "text": "como proteger idosos durante muito calor?"
+        },
+        {
+          "text": "estou me sentindo mal, o que devo fazer?"
+        },
+        {
+          "text": "o que fazer para evitar desidratação?"
+        },
+        {
+          "text": "posso pegar alguma doença com essa chuva forte?"
+        },
+        {
+          "text": "preciso de dicas de saúde em situações de desastre"
+        },
+        {
+          "text": "quais cuidados com a saúde durante uma onda de calor?"
+        },
+        {
+          "text": "quais os riscos para crianças em frio extremo?"
+        },
+        {
+          "text": "quais são os riscos para minha saúde durante esse calor?"
+        },
+        {
+          "text": "que doenças podem surgir depois de uma enchente?"
+        },
+        {
+          "text": "tenho problemas respiratórios, o que faço durante uma tempestade?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "duvidas_app",
+      "examples": [
+        {
+          "text": "como ativo os alertas no meu celular?"
+        },
+        {
+          "text": "como eu busco minha localização no app?"
+        },
+        {
+          "text": "como funciona esse aplicativo?"
+        },
+        {
+          "text": "como posso cadastrar meus dados no app?"
+        },
+        {
+          "text": "consigo compartilhar informações do app com outras pessoas?"
+        },
+        {
+          "text": "esse app funciona offline?"
+        },
+        {
+          "text": "o aplicativo mostra os abrigos?"
+        },
+        {
+          "text": "o app avisa sobre enchentes em tempo real?"
+        },
+        {
+          "text": "o app envia notificações?"
+        },
+        {
+          "text": "onde eu vejo os alertas no app?"
+        },
+        {
+          "text": "onde vejo as rotas seguras no mapa?"
+        },
+        {
+          "text": "tem como configurar alertas personalizados no app?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "informacoes_abrigos",
+      "examples": [
+        {
+          "text": "como chego até o abrigo mais próximo?"
+        },
+        {
+          "text": "como saber se o abrigo está lotado?"
+        },
+        {
+          "text": "o abrigo aceita animais?"
+        },
+        {
+          "text": "o abrigo oferece alimentos?"
+        },
+        {
+          "text": "o abrigo tem espaço para famílias?"
+        },
+        {
+          "text": "o abrigo tem suporte médico?"
+        },
+        {
+          "text": "o app mostra os horários dos abrigos?"
+        },
+        {
+          "text": "onde encontro um abrigo perto de mim?"
+        },
+        {
+          "text": "onde ficam os abrigos para pessoas com deficiência?"
+        },
+        {
+          "text": "precisa de cadastro para entrar no abrigo?"
+        },
+        {
+          "text": "quantos abrigos existem na minha cidade?"
+        },
+        {
+          "text": "tem algum abrigo funcionando agora?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rotas_segurancas",
+      "examples": [
+        {
+          "text": "as estradas estão livres?"
+        },
+        {
+          "text": "as pontes estão seguras?"
+        },
+        {
+          "text": "como chego ao abrigo mais próximo?"
+        },
+        {
+          "text": "me avisa se alguma rota estiver fechada"
+        },
+        {
+          "text": "me mostra o caminho mais seguro"
+        },
+        {
+          "text": "o aplicativo mostra as rotas seguras?"
+        },
+        {
+          "text": "onde está o abrigo mais próximo?"
+        },
+        {
+          "text": "por onde posso fugir da enchente?"
+        },
+        {
+          "text": "quais são as rotas seguras perto de mim?"
+        },
+        {
+          "text": "qual é a melhor rota para escapar do perigo?"
+        },
+        {
+          "text": "qual o trajeto mais rápido para o abrigo?"
+        },
+        {
+          "text": "tem algum caminho bloqueado?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "está funcionando?"
+        },
+        {
+          "text": "me responde por favor"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "oii"
+        },
+        {
+          "text": "oiii"
+        },
+        {
+          "text": "oi, tudo bem?"
+        },
+        {
+          "text": "olá"
+        },
+        {
+          "text": "preciso de ajuda"
+        },
+        {
+          "text": "quero falar com você"
+        },
+        {
+          "text": "tem alguém ai?"
+        },
+        {
+          "text": "vamos começar"
+        },
+        {
+          "text": "você pode me ajudar?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "troca_saida",
+      "examples": [
+        {
+          "text": "conversar por voz"
+        },
+        {
+          "text": "falar por mensagem"
+        },
+        {
+          "text": "falar por voz"
+        },
+        {
+          "text": "gostaria de conversar em texto"
+        },
+        {
+          "text": "gostaria de conversar somente em audio"
+        },
+        {
+          "text": "gostaria de uma conversa por voz"
+        },
+        {
+          "text": "quero conversar por audio"
+        },
+        {
+          "text": "quero conversar por mensagem"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "assistencia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bombeiros",
+          "synonyms": [
+            "defesa civil",
+            "SAMU"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hospital",
+          "synonyms": [
+            "abrigo",
+            "ajuda",
+            "posto de saúde ",
+            "resgate"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "desastre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "enchente",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "frio extremo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "onda de calor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tempestade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "terremoto",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "duvida_app",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alertas",
+          "synonyms": [
+            "conta",
+            "mapas",
+            "notificações"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "evento_climatico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "agua",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chuva",
+          "synonyms": [
+            "calor",
+            "enchente ",
+            "frio",
+            "frio extremo",
+            "onda de calor",
+            "tempestade",
+            "terremoto",
+            "tremor",
+            "vendaval",
+            "ventania"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vento",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "local",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "abrigo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "casa",
+          "synonyms": [
+            "apartamento",
+            "bairro",
+            "cidade",
+            "escola",
+            "rua"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "condominio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "trabalho",
+          "synonyms": [
+            "emprego"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "localizacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Curitiba",
+          "synonyms": [
+            "Àgua verde ",
+            "Batel",
+            "Portão",
+            "Santa Felicidade"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Porto Alegre",
+          "synonyms": [
+            "Bela Vista",
+            "Cidade baixa",
+            "Menino Deus",
+            "Petrópolis",
+            "Santana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio de Janeiro",
+          "synonyms": [
+            "botafogo",
+            "centro",
+            "ipanema",
+            "tijuca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Salvador",
+          "synonyms": [
+            "Barra",
+            "Brotas",
+            "Pituba",
+            "Rio vermelho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "São Paulo",
+          "synonyms": [
+            "Bela vista",
+            "Centro",
+            "Guarulhos",
+            "Lapa",
+            "Morumbi",
+            "Pinheiros",
+            "Pirituba ",
+            "Santana",
+            "Tatuapé"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "risco",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "emergência",
+          "synonyms": [
+            "urgência"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "perigo",
+          "synonyms": [
+            "alerta",
+            "ameaça",
+            "situação de risco"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tempo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "futuro",
+          "synonyms": [
+            "presente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hoje",
+          "synonyms": [
+            "agora",
+            "amanhã",
+            "ontem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mês",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "previsão",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "semana",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "troca_saida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "audio",
+          "synonyms": [
+            "fala",
+            "voz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "texto",
+          "synonyms": [
+            "caracteres",
+            "letras",
+            "mensagens"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi, pode repetir de forma mais clara?"
+              },
+              {
+                "text": "Não entendo o quer saber."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1748441769922",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, me informe sua cidade ou bairro para que eu possa verificar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#alertas_climaticos || @tempo || @evento_climatico",
+      "dialog_node": "node_10_1748383478201",
+      "previous_sibling": "node_4_1748465400926"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como você está em @localizacao, é recomendado que apenas permaneça na sua casa ou em local fechado e seguro. Não vai ser necessário ir atrás de abrigo.                                           \nPorém, se quiser posso te recomendar três abrigos de sua região para você ir. Apenas digite \"abrigos\" e sua região(cidade ou bairro) novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1748430028155",
+      "conditions": "@localizacao:(São Paulo)",
+      "dialog_node": "node_10_1748430816255"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1- Unidade de Acolhimento da Taquara.                                                                                                  Localização: Bairro Taquara, Zona Oeste do Rio de Janeiro.                                             \nFuncionamento: Ativada emergencialmente durante períodos de frio intenso. Capacidade de 100 vagas.                                                                                                                                                         \n                                                                                                                                                                             \n 2- Unidade de acolhimento da Ilha do Governador. Localização: Ilha do governador, Zona Norte do Rio de Janeiro. Funcionamento: Ativada como abrigo emergencial durante frentes frias. capacidade de 100 vagas.                                                                                                                   \n                                                                                                                                                                             \n  3- Unidade de acolhimento de Paciência. localização: Bairro Paciência, zona Oeste do Rio de Janeiro. Funcionamento: ativada como abrigo emergencial durante frentes frias. capacidade de 100 vagas. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1748435352599",
+      "conditions": "@local:abrigo && @localizacao:(Rio de Janeiro)",
+      "dialog_node": "node_10_1748435446942"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o tipo de ajuda preventiva você quer que eu fale sobre? Onda de calor, tempestade, enchente, terremoto ou frio extremo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ajuda_preventiva || @risco",
+      "dialog_node": "node_10_1748441683436",
+      "previous_sibling": "node_4_1748440414377"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "texto selecionado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1748465400926",
+      "context": {
+        "tipo_saida": "message"
+      },
+      "conditions": "@troca_saida:texto",
+      "dialog_node": "node_10_1748465767959",
+      "previous_sibling": "node_2_1748465733690"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O menu principal do app te mostra rotas seguras, te guia para abrigos e manda alertas, tudo fica bem intuitivo e fácil para você saber onde clicar.  Se tiver alguma denúncia para fazer temos essa opção também no início.                                                                         \nEu posso te orientar em situações de risco e te dizer sobre o clima, só me perguntar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#duvidas_app",
+      "dialog_node": "node_1_1748387365893",
+      "previous_sibling": "node_8_1748385886759"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1- Unidade de Acolhimento da Taquara.                                                                                                  Localização: Bairro Taquara, Zona Oeste do Rio de Janeiro.                                             \nFuncionamento: Ativada emergencialmente durante períodos de frio intenso. Capacidade de 100 vagas.                                                                                                                                                         \n                                                                                                                                                                             \n 2- Unidade de acolhimento da Ilha do Governador. Localização: Ilha do governador, Zona Norte do Rio de Janeiro. Funcionamento: Ativada como abrigo emergencial durante frentes frias. capacidade de 100 vagas.                                                                                                                   \n                                                                                                                                                                             \n  3- Unidade de acolhimento de Paciência. localização: Bairro Paciência, zona Oeste do Rio de Janeiro. Funcionamento: ativada como abrigo emergencial durante frentes frias. capacidade de 100 vagas. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1748439915496",
+      "conditions": "@local:abrigo && @localizacao:(Rio de Janeiro)",
+      "dialog_node": "node_1_1748440304489"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durante e após uma onda de calor, é essencial cuidar do corpo:\n\nBeba bastante água, mesmo sem sentir sede.\nEvite atividades físicas nos horários mais quentes do dia.\nMantenha os ambientes ventilados e frescos.\nAtenção com crianças, idosos e pessoas doentes, pois são mais vulneráveis.\nSe sentir tontura, confusão ou fraqueza intensa, procure ajuda médica."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1748441769922",
+      "conditions": "@desastre:(onda de calor)",
+      "dialog_node": "node_1_1748462121666",
+      "previous_sibling": "node_4_1748462059160"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como você está em @localizacao, é recomendado que vá atrás de abrigos para sua segurança até amanhã.                                           \nSe quiser posso te recomendar três abrigos de sua região para você ir. Apenas digite \"abrigos\" e sua região(cidade ou bairro) novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1748436299381",
+      "conditions": "@localizacao:(Rio de Janeiro)",
+      "dialog_node": "node_2_1748439915496",
+      "previous_sibling": "node_5_1748439884104"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Saia de construções danificadas e evite áreas com risco de desabamento.\nUse lanternas ao invés de fósforos ou velas, por risco de vazamentos de gás.\nEscute alertas das autoridades e siga as orientações locais.\nSe precisar de ajuda, ligue para os serviços de emergência ou vá até um posto de atendimento.\nApoio psicológico também é importante — o CVV (188) pode ajudar.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1748441769922",
+      "conditions": "@desastre:terremoto",
+      "dialog_node": "node_2_1748462041161",
+      "previous_sibling": "node_8_1748461818187"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Àudio selecionado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1748465400926",
+      "context": {
+        "tipo_saida": "voice"
+      },
+      "conditions": "@troca_saida:audio",
+      "dialog_node": "node_2_1748465733690"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1- Abrigo solidário - Estação Pedro II (Metrô).                                                                      \n   Localização: Estação Pedro II, linha 3- Vermelha do metrô. Entrada pela rua da Figueira, Bairro Sé, Centro.                                                                                                                               Funcionamento: Ativado pela Defesa Civil durante períodos de frio intenso, geralmente das 19h ás 8h do dia seguinte. Até 100 pessoas por noite.                                                                                                                                                                         \n                                                                                                                                                                             2- Abrigo da Praça da Sé.                                                                                                                      Localização: Praça da Sé, Centro de São Paulo.                                                                         Funcionamento: Operado pela Secretaria de Desenvolvimento social( Seds), com triagem realizada pela prefeitura. Dobrou de 50 para 100 pessoas por dia durante períodos de frio.                                 \n                                                                                                                                                                             3- Casa do Migrante - Missão paz.                                                                                                         Localização: Rua do Glicério, região central de São Paulo.                                         \n Funcionamento: Abertura continuamente, com foco no acolhimento de migrantes e refugiados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748430816255",
+      "conditions": "@local:abrigo && @localizacao:(São Paulo)",
+      "dialog_node": "node_3_1748433441803"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fica tudo no menu principal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1748387365893",
+      "conditions": "@duvida_app",
+      "dialog_node": "node_3_1748444908356"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Antes de uma tempestade ou ventos fortes:\n\nFeche bem portas e janelas, e desligue os aparelhos eletrônicos da tomada.\nRemova objetos soltos de varandas e quintais (vasos, móveis, etc.).\nEvite estacionar perto de árvores ou postes.\nTenha lanternas e pilhas em local acessível.\nAcompanhe alertas da Defesa Civil e, se orientado, procure abrigo seguro.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748441683436",
+      "conditions": "@desastre:tempestade",
+      "dialog_node": "node_3_1748462582448",
+      "previous_sibling": "node_9_1748462519206"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1- Abrigo solidário - Estação Pedro II (Metrô).                                                                      \n   Localização: Estação Pedro II, linha 3- Vermelha do metrô. Entrada pela rua da Figueira, Bairro Sé, Centro.                                                                                                                               Funcionamento: Ativado pela Defesa Civil durante períodos de frio intenso, geralmente das 19h ás 8h do dia seguinte. Até 100 pessoas por noite.                                                                                                                                                                         \n                                                                                                                                                                             2- Abrigo da Praça da Sé.                                                                                                                      Localização: Praça da Sé, Centro de São Paulo.                                                                         Funcionamento: Operado pela Secretaria de Desenvolvimento social( Seds), com triagem realizada pela prefeitura. Dobrou de 50 para 100 pessoas por dia durante períodos de frio.                                 \n                                                                                                                                                                             3- Casa do Migrante - Missão paz.                                                                                                         Localização: Rua do Glicério, região central de São Paulo.                                         \n Funcionamento: Abertura continuamente, com foco no acolhimento de migrantes e refugiados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1748439884104",
+      "conditions": "@local:abrigo && @localizacao:(São Paulo)",
+      "dialog_node": "node_4_1748440249489"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em situações de desastre ou condições climáticas extremas, é essencial cuidar da saúde!\n várias doenças podem surgir. Veja alguns cuidados importantes:\n \nPós-desastre: há risco de doenças infecciosas, intoxicações e problemas respiratórios. Mantenha higiene, evite água ou alimentos contaminados e use máscara se houver muita poeira.\nDurante enchentes: podem surgir doenças como leptospirose, hepatite A, diarreias e infecções de pele. Evite contato com a água e lave bem os alimentos.\nEm ondas de calor: desidratação, insolação e agravamento de doenças crônicas são comuns. Beba muita água, fique em locais frescos e observe sintomas como tontura ou mal-estar.\nNo frio extremo: aumentam os casos de gripes, pneumonia e crises respiratórias, especialmente em crianças e idosos. Agasalhe-se bem e evite mudanças bruscas de temperatura.\nDurante chuvas fortes e tempestades: problemas respiratórios podem piorar. Mantenha o ambiente seco e arejado sempre que possível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cuidados_com_saude || @assistencia",
+      "dialog_node": "node_4_1748440414377",
+      "previous_sibling": "node_6_1748436299381"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verifique se há fios elétricos caídos e evite se aproximar.\nAvalie se há danos na estrutura da sua casa antes de entrar.\nNão ligue aparelhos eletrônicos se houver sinais de infiltração ou alagamento.\nPara reparos, procure profissionais qualificados e evite improvisos perigosos.\nSe precisar de abrigo, procure os pontos de apoio informados pela Defesa Civil.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1748441769922",
+      "conditions": "@desastre:tempestade",
+      "dialog_node": "node_4_1748462059160",
+      "previous_sibling": "node_2_1748462041161"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você quer conversar por áudio ou texto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#troca_saida",
+      "dialog_node": "node_4_1748465400926",
+      "previous_sibling": "node_9_1748381899553"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Durante um evento de desastre, evite sair de casa se não for absolutamente necessário. Não toque em fios caídos, não tente atravessar áreas alagadas e siga sempre as orientações da Defesa Civil ou autoridades locais.                                                                                                                                    Se quiser um abrigo ou estiver em dúvida se pode sair de casa me mande sua localização e eu te oriento.                                                                                                                                                          Se for uma emergência você tem a opção de relatar o que está acontecendo no nosso aplicativo, e enviaremos ajuda, no menu principal clique em denúncias, ou ligue para 193(bombeiros), 190(Polícia), 199(Defesa Civil)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ajuda_durante_evento",
+      "dialog_node": "node_5_1748430028155",
+      "previous_sibling": "node_1_1748387365893"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como você está em @localizacao, é recomendado que apenas permaneça na sua casa ou em local fechado e seguro. Não vai ser necessário ir atrás de abrigo.                                           \nPorém, se quiser posso te recomendar três abrigos de sua região para você ir. Apenas digite \"abrigos\" e sua região(cidade ou bairro) novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1748436299381",
+      "conditions": "@localizacao:(São Paulo)",
+      "dialog_node": "node_5_1748439884104"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para enfrentar o frio intenso com segurança:\n\nUse roupas em camadas, com gorro, luvas e meias.\nEvite o uso de brasas ou lenha em locais fechados por risco de intoxicação.\nMantenha os ambientes fechados à noite e abertos durante o dia para ventilar.\nAlimente-se bem e mantenha-se hidratado.\nCuide especialmente de idosos e pessoas em situação de rua — acione serviços sociais locais se necessário."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748441683436",
+      "conditions": "@desastre:(frio extremo)",
+      "dialog_node": "node_5_1748462374569"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como você está em @localizacao, é recomendado que vá atrás de abrigos para sua segurança até amanhã.                                           \nSe quiser posso te recomendar três abrigos de sua região para você ir. Apenas digite \"abrigos\" e sua região(cidade ou bairro) novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1748430028155",
+      "conditions": "@localizacao:(Rio de Janeiro)",
+      "dialog_node": "node_6_1748435352599",
+      "previous_sibling": "node_10_1748430816255"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui estão algumas informações úteis sobre os abrigos:                                                   \n                                                                                                                                                          \n Localização: Você pode encontrar o abrigo mais próximo informando sua cidade ou bairro.  \n                                                                                                                                                                \n Horários: A maioria dos abrigos funciona à noite, especialmente em períodos de frio ou emergência.                                                                                                                                                                                                                          \n                                                                                                                                                                  \n Famílias e acessibilidade: muitos abrigos têm espaço para famílias com crianças e acessibilidade para pessoas com deficiência. Também há abrigos que aceitam animais de estimação.                                                                                                                                                                             \n                                                                                                                                                                 \n Serviços oferecidos: refeições (jantar e café da manhã), colchões, cobertores e suporte básico de saúde. Alguns abrigos também oferecem suporte jurídico e psicológico.                                                \n                                                                                                                                                         \nCadastro: Alguns abrigos pedem cadastro, principalmente os fixos. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#informacoes_abrigos",
+      "dialog_node": "node_6_1748436299381",
+      "previous_sibling": "node_5_1748430028155"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o tipo de desastre pós evento? Onda de calor, tempestade, enchente ou terremoto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ajuda_pos_evento || @risco",
+      "dialog_node": "node_6_1748441769922",
+      "previous_sibling": "node_10_1748441683436"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para se preparar para uma possível enchente:\n\nMantenha documentos importantes em sacos plásticos e em locais altos.\nTenha um kit de emergência pronto com água, alimentos não perecíveis e remédios.\nSaiba onde ficam os abrigos públicos em sua cidade.\nEvite construir em áreas de risco (margens de rios, encostas).\nSiga as orientações da Defesa Civil caso receba alertas de risco.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748441683436",
+      "conditions": "@desastre:enchente",
+      "dialog_node": "node_6_1748462424891",
+      "previous_sibling": "node_5_1748462374569"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Atenção! Em @localizacao , há alerta de chuvas intensas e risco de alagamento nas próximas horas.\n Recomendo evitar áreas baixas e ficar atento às atualizações."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748383478201",
+      "context": {
+        "localizacao_usuario": "@localizacao"
+      },
+      "conditions": "@localizacao",
+      "dialog_node": "node_7_1748384048594"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durante períodos de calor extremo:\n\nBeba bastante água e evite exposição ao sol entre 10h e 16h.\nUse roupas leves e protetor solar.\nMantenha ambientes ventilados e evite atividades físicas intensas.\nCuide de idosos, crianças e animais de estimação — são mais vulneráveis.\nTenha à mão um ventilador ou pano úmido para ajudar a resfriar o corpo.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748441683436",
+      "conditions": "@desastre:(onda de calor)",
+      "dialog_node": "node_7_1748462492669",
+      "previous_sibling": "node_6_1748462424891"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para te ajudar, preciso saber sua localização. Pode me informar sua cidade ou bairro?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#rotas_segurancas",
+      "dialog_node": "node_8_1748385886759",
+      "previous_sibling": "node_10_1748383478201"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Depois de uma enchente, é importante tomar alguns cuidados para proteger sua saúde e segurança:\n\nEvite contato direto com a água da enchente, pois pode estar contaminada.\nNão consuma alimentos ou água que tiveram contato com a enchente.\nPara limpeza da casa, use luvas, botas e água sanitária (1 copo para 1 balde de água).\nProcure atendimento médico se tiver sintomas como febre, vômitos ou diarreia.\nPara ajuda emergencial, entre em contato com a Defesa Civil local.\n \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1748441769922",
+      "conditions": "@desastre:enchente",
+      "dialog_node": "node_8_1748461818187"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "olá, como posso ajudar?"
+              },
+              {
+                "text": "oii, tudo bem?"
+              },
+              {
+                "text": "oie, me diga do que precisa!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#saudacao",
+      "dialog_node": "node_9_1748381899553",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encontrei um abrigo próximo na região de @localizacao. A melhor rota é pela Avenida Central, outras ruas estão alagadas no momento. Se preferir, no menu do aplicativo toque em \"rotas seguras\", irá te ajudar a seguir em tempo real com avisos para um lugar seguro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1748385886759",
+      "conditions": "@localizacao",
+      "dialog_node": "node_9_1748386147990"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Antes de um terremoto:\n\nPlaneje rotas de fuga seguras com sua família.\nIdentifique pontos seguros dentro de casa (embaixo de mesas firmes, longe de janelas).\nFixe móveis altos nas paredes e evite prateleiras pesadas acima das camas.\nTenha um kit de emergência com lanterna, água, remédios e rádio.\nParticipe de simulações e conheça os procedimentos de evacuação da sua região.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748441683436",
+      "conditions": "@desastre:terremoto",
+      "dialog_node": "node_9_1748462519206",
+      "previous_sibling": "node_7_1748462492669"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, tudo bem? Espero que você esteja seguro!\nEu sou o assistente desse app, criado para te ajudar em momentos de emergência.                    \n Se precisar, posso te alertar sobre riscos na sua região, indicar rotas seguras e abrigos próximos, além de te orientar sobre como agir em cada situação.\nConte comigo. Como posso te ajudar agora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "",
+  "name": "Eventos climáticos extremos-dialog"
+}
