@@ -4,7 +4,7 @@ interface LoginProps {
   setPage: (page: number) => void;
 }
 
-function Login({ setPage }: LoginProps) {
+ function Login({ setPage }: LoginProps) {
   // ajuste a cor para o exato verde-água do seu Figma se quiser
   const aqua = "#0F8E89"; // troque por o hex do Figma se precisar
 
